@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Poppins:wght@200&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .maindiv {
+  background-color: black;
+} */
+
+/* button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  box-shadow: 0 4px 8px rgba(104, 103, 103, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  gap: 20px; /* Added gap between buttons */
+
+/* button:hover {
+  background: linear-gradient(45deg, #f06595, #ff6b6b);
+  box-shadow: 0 6px 12px rgba(215, 207, 207, 0.3);
+  transform: translateY(-2px);
+}
+
+button:active {
+  background: linear-gradient(45deg, #ff6b6b, #f06595);
+  box-shadow: 0 2px 6px rgba(114, 184, 120, 0.2);
+  transform: translateY(0);
+}
+
+button:focus {
+  outline: none;
+} */

@@ -1,116 +1,85 @@
-# Persist Venture Assignment - Event Management App
+# Persist Venture Assignment
 
-This React application, built with **Vite**, **Redux Toolkit**, **Tailwind CSS**, **Material UI**, **Chakra UI**, and **Framer Motion**, offers a seamless event management experience. Users can efficiently filter, view detailed event information, and enjoy smooth animated transitions.
+🚀 **Introduction**  
+The **Persist Venture Assignment** is a React web application that showcases event management functionality with a modern user interface. It allows users to view, filter, and explore events with smooth animations. The app is built using **Vite**, **Redux Toolkit**, **Tailwind CSS**, **Material UI**, **Chakra UI**, and **Framer Motion** to provide an engaging user experience.
 
-## ✨ Features
+📌 **Live Demo**  
+🔗 [Live Demo](#) *(Add your live demo link here)*
 
--   **Event Filtering**: Easily filter events based on:
-    -   Today
-    -   Tomorrow
-    -   This Week
-    -   This Month
--   **Detailed Event Views**: Access comprehensive details for each event.
--   **Smooth Animations**: Enjoy a fluid user experience with Framer Motion and GSAP.
--   **State Management**: Robust state management using Redux Toolkit.
--   **Modern & Responsive UI**: Built with Material UI and Chakra UI for a sleek, accessible, and responsive design.
--   **Utility-First Styling**: Leveraging Tailwind CSS for rapid and maintainable styling.
+✨ **Features**
 
-## 📂 Project Structure
+✅ **Event Management**:
+- View a list of events with details such as title, date, time, and location.
+- Event filtering by categories like "Today", "Tomorrow", "This Week", etc.
+- Display event cards with smooth animations.
 
-your-project-directory/
-├── public/
-│   └── ... (static assets)
-├── src/
-│   ├── components/
-│   │   ├── EventCard.jsx
-│   │   ├── EventDetails.jsx
-│   │   ├── FilterBar.jsx
-│   │   └── ... (other components)
-│   ├── features/
-│   │   └── events/
-│   │       ├── eventsSlice.js
-│   │       └── eventsSelectors.js
-│   ├── app/
-│   │   └── store.js
-│   ├── styles/
-│   │   └── index.css
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── ... (other source files)
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── README.md
+✅ **UI Design**:
+- Responsive design built with **Tailwind CSS**.
+- Modern and interactive UI components using **Material UI** and **Chakra UI**.
+- **Framer Motion** for animations to enhance user experience.
 
+✅ **State Management**:
+- **Redux Toolkit** for global state management of events.
 
-## 🚀 Prerequisites
+✅ **Smooth Animations**:
+- Uses **Framer Motion** for interactive and smooth transitions across the app.
 
+⚙️ **Installation**
+
+### Prerequisites
 Ensure you have the following installed:
+- **Node.js** (v14 or higher)
+- **npm** (v6 or higher)
 
--   **Node.js**: v14 or higher ([Download Node.js](https://nodejs.org/))
--   **npm**: v6 or higher (comes with Node.js)
+### Steps to Install & Run Locally
 
-## 🛠️ Setup and Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/persist-venture-assignment.git
+    cd persist-venture-assignment
+    ```
 
-### 1. **Clone the Repository**
+2. Install dependencies:
+    Using npm:
+    ```bash
+    npm install
+    ```
+    Or using yarn:
+    ```bash
+    yarn install
+    ```
 
-```bash
-git clone [https://github.com/Junayidjd/perisit-venture-react-assignment](https://github.com/Junayidjd/perisit-venture-react-assignment)
-cd persist-venture-react-assignment
-2. Install Dependencies
-Bash
+3. Start the development server:
+    Using npm:
+    ```bash
+    npm run dev
+    ```
+    Or using yarn:
+    ```bash
+    yarn dev
+    ```
 
-npm install
-This command installs all necessary dependencies listed in package.json.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-3. Start the Development Server
-Bash
+🛠️ **Dependencies**
 
-npm run dev
-The application will be available at http://localhost:3000.
+The project uses the following dependencies:
 
-📦 Dependencies
-Core Dependencies:
-react: JavaScript library for building UIs.
-react-dom: Entry point to the DOM and server renderers for React.
-vite: Fast bundler and build tool.
-@vitejs/plugin-react: Vite plugin for React.
-State Management:
-@reduxjs/toolkit: Efficient Redux development.
-react-redux: Official React bindings for Redux.
-UI Libraries:
-@mui/material: Material Design components.
-@chakra-ui/react: Modular and accessible React components.
-@emotion/react, @emotion/styled: CSS-in-JS libraries for Chakra UI.
-Styling and Tailwind CSS:
-tailwindcss: Utility-first CSS framework.
-@tailwindcss/vite: Tailwind CSS integration with Vite.
-tailwind-merge: Merging Tailwind class names.
-tailwindcss-animate: Animations for Tailwind CSS.
-Animation Libraries:
-framer-motion: Motion library for React.
-gsap: High-performance JavaScript animations.
-Utilities:
-lucide-react: Icon library.
-clsx: Conditional className utility.
-@radix-ui/react-select: Customizable select dropdown.
-Linting and TypeScript:
-eslint: JavaScript and JSX linter.
-typescript, @types/react, @types/react-dom, @types/node: TypeScript support.
-📜 Summary of Commands
-Clone the repository and navigate to the project folder:
-
-Bash
-
-git clone <repository-url>
-cd persist-venture-react-assignment
-Install dependencies:
-
-Bash
-
-npm install
-Start the development server:
-
-Bash
-
-npm run dev
+```json
+"dependencies": {
+  "@chakra-ui/react": "^3.11.0",
+  "@emotion/react": "^11.14.0",
+  "@emotion/styled": "^11.14.0",
+  "@mui/material": "^6.4.7",
+  "@reduxjs/toolkit": "^2.6.1",
+  "@tailwindcss/vite": "^4.0.12",
+  "clsx": "^2.1.1",
+  "framer-motion": "^12.4.10",
+  "lucide-react": "^0.479.0",
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0",
+  "react-redux": "^9.2.0",
+  "react-router-dom": "^7.3.0",
+  "tailwind-merge": "^3.0.2",
+  "tailwindcss-animate": "^1.0.7"
+}
